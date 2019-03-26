@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+}
+
+li{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+    margin-right: 20px;
+}
+
+.Layout{
+    width:90%;
+    margin: auto;
+}
+
+#headstyle{
+    min-height:130px;
+    background-color: darkblue;
+    background-image: url("../images/astronomy.jpg");
+    position: relative;
+}
+
+#bigtext{
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    margin: 0;
+    padding: 30px 30px 30px 50px;
+}
+
+
+#mainnav{
+    color: white;
+    width: 100;
+    margin: 0;
+    position: absolute;
+    margin-top: 80px;
+}
+
+#mainnav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+
+footer{
+    background-color: darkblue;
+    background-image: url("../images/astronomy.jpg");
+    min-height: 50px;
+    text-align: center;
+    color: white;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+footer p{
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+li#inlined{
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+}
+
+li{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+table{
+    border: 1px solid black;
+}
+table th{
+    border: 1px solid black;
+    padding: 0 5px;
+}
+
+.delete-user{
+    text-decoration: none;
+    color:red;
+    font-size: 22px;
+}
+
+.delete-div{
+    border: black 1px solid;
+    width: 120px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}

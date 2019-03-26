@@ -1,0 +1,32 @@
+extends layout
+
+block content
+    h1 Users 
+    table
+        tr
+            th Id
+            th Name
+            th Email
+            th Country
+            th City
+            th Address
+            th Occupation
+            th Edit
+        each user, i in users
+            tr
+                th
+                    p= i+1+"."
+                th
+                    p= user.name
+                th
+                    p= user.email
+                th
+                    p= user.country
+                th
+                    p= user.city
+                th
+                    p= user.address
+                th
+                    p= user.occupation
+                th
+                    a(href="users/edit/"+user._id) Edit

@@ -1,0 +1,20 @@
+{
+  "name": "usercrud",
+  "version": "1.0.0",
+  "description": "a simple CRUD with Node.js, express.js and mongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "samniem",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "bower": "^1.8.8",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.19",
+    "nodemon": "^1.18.10",
+    "pug": "^2.0.3"
+  }
+}

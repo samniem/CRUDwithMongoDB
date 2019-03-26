@@ -1,0 +1,25 @@
+extends layout
+
+block content
+    h1 Add User
+    form(method="POST", action="/users/add")
+        #form-group
+            label Name:
+            input.form(name='name', type='text')
+        #form-group
+            label Email:
+            input.form(name='email', type='email')
+        #form-group
+            label Country:
+            input.form(name='country', type='text')
+        #form-group
+            label City:
+            input.form(name='city', type='text')
+        #form-group
+            label Address:
+            input.form(name='address', type='text')
+        #form-group
+            label Occupation:
+            input.form(name='occupation', type='text')
+        br
+        input.btn(type='submit', value='Submit')
