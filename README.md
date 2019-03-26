@@ -1,4 +1,6 @@
-#CRUD Application
+# CRUD Application
+This application has been made using node.js, express.js and mongoDB.
+The mongoDB server is run locally here.
 
 mkdir data
 mkdir data/db
