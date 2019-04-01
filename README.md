@@ -2,13 +2,13 @@
 This application has been made using node.js, express.js and mongoDB.
 The mongoDB server is run locally here.
 
-mkdir data
-mkdir data/db
-mongod --dbpath ./data/db/ 
+	mkdir data
+	mkdir data/db
+	mongod --dbpath ./data/db/ 
 
-npm init
-npm i --save express pug nodemon mongoose body-parser bower
-bower install jquery
+	npm init
+	npm i --save express pug nodemon mongoose body-parser bower
+	bower install jquery
 
 mongo --host localhost --port 27017
 
