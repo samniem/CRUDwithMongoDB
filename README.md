@@ -10,7 +10,7 @@ The mongoDB server is run locally here.
 	npm i --save express pug nodemon mongoose body-parser bower
 	bower install jquery
 
-mongo --host localhost --port 27017
+	mongo --host localhost --port 27017
 
 	use userbase
 	db.createCollection('users');
